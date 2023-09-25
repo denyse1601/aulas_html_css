@@ -1,7 +1,14 @@
+* {
+    margin: 0;
+}
+
+
 div {
     border: 4px dotted #00f;
     width: fit-content;
     font-size: 24px;
+
+    
 
     /* padding-top: 10px;
     padding-right: 20px;
@@ -10,7 +17,7 @@ div {
 
     /* shorthand */
     /* 1 valor = mesmo valor pra todos os lados */
-    padding:20px ;
+    padding: 20px;
 
     /* 2 valores = primeiro top e bottom / segundo = right e left */
     padding: 30px 50px;
@@ -24,4 +31,22 @@ div {
     /* propriedades extras */
     padding-inline: 40px;  /*padding na horizontal*/
     padding-block: 20px;   /*padding na vertical*/
+}
+
+h1 {
+    border: 1px solid red;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.algum {
+    margin-bottom: 100px;
+}
+
+.ultimo {
+    margin-top: 50px;
+}
+
+.outro {
+    margin-inline: auto; 
 }
